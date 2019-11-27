@@ -18,7 +18,6 @@ namespace _1_MultiplesOf3and5
                 if(i % 3 == 0 || i % 5 == 0)
                 {
                     solution += i;
-                    continue;
                 }
             }
             
