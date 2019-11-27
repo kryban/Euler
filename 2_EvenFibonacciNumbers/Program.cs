@@ -33,7 +33,7 @@ namespace _2_EvenFibonacciNumbers
                 }
             }
 
-            Console.WriteLine($"Solution Project 1: {solution}");
+            Console.WriteLine($"Solution Project 2: {solution}");
 
             Console.WriteLine();
             Console.WriteLine("Press any key.");
