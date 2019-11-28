@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0_Base", "0_sev\0_Base.cspr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_LargestPrimeFactor", "3_LargestPrimeFactor\3_LargestPrimeFactor.csproj", "{CE5E4D3D-D6B5-418F-AB8A-71742D1CF007}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_LargestPalindromeProduct", "4_LargestPalindromeProduct\4_LargestPalindromeProduct.csproj", "{94AD2986-E74E-448A-A951-598325A7528B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CE5E4D3D-D6B5-418F-AB8A-71742D1CF007}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE5E4D3D-D6B5-418F-AB8A-71742D1CF007}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE5E4D3D-D6B5-418F-AB8A-71742D1CF007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94AD2986-E74E-448A-A951-598325A7528B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94AD2986-E74E-448A-A951-598325A7528B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94AD2986-E74E-448A-A951-598325A7528B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94AD2986-E74E-448A-A951-598325A7528B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
