@@ -1,4 +1,4 @@
-﻿using System;
+﻿using _0_Base;
 using System.Collections.Generic;
 
 namespace _3_LargestPrimeFactor
@@ -8,71 +8,55 @@ namespace _3_LargestPrimeFactor
      * What is the largest prime factor of the number 600851475143 ?
      */
 
-    class Program
+    class Program : SolverBase
     {
         static void Main(string[] args)
         {
+            int answer = 6857;
             long solution = 0;
+
             long max = 600851475143;
 
-            List<long> priemgetallen = new List<long>();
+            long rest = max;
 
-            for (long natuurlijkGetal = 1; natuurlijkGetal < max; natuurlijkGetal++)
+            for (long naturalNumber = 1; naturalNumber < max; naturalNumber++)
             {
-                BepaalPriemgetal(natuurlijkGetal, priemgetallen);
+                if(IsPrimeNumber(naturalNumber))
+                {
+                    System.Console.WriteLine($"Calculating next prime number: {naturalNumber}");
 
-                long subtotaal = AllePriemGetallenVermenigvuldigd(priemgetallen);
-                
-                if (subtotaal > max)
-                {
-                    priemgetallen.RemoveAt(priemgetallen.Count - 1);
-                    solution = priemgetallen[priemgetallen.Count-1];
-                    max = natuurlijkGetal -1;
+                    while (rest % naturalNumber == 0 && rest > 1)
+                    {
+                        rest /= naturalNumber;
+                    }
                 }
-                if(subtotaal == max)
+
+                if(rest == 1)
                 {
-                    solution = priemgetallen[priemgetallen.Count-1]; ;
-                    max = natuurlijkGetal - 1;
+                    solution = naturalNumber;
+                    max = naturalNumber;
                 }
             }
 
-
-
-            Console.WriteLine($"Solution Project 3: {solution}");
-
-            Console.WriteLine();
-            Console.WriteLine("Press any key.");
-            Console.ReadKey();
+            ShowResults(solution, answer);
         }
 
-        private static long AllePriemGetallenVermenigvuldigd(List<long> priemgetallen)
+        private static bool IsPrimeNumber(long naturalNumber)
         {
-            long retval = 0;
-            long vorigePriem = 0;
-            foreach(long priemgetal in priemgetallen)
+            long divisibleCounter = 0;
+            for (int i = 1; i <= naturalNumber; i++)
             {
-                retval += vorigePriem * priemgetal;
-                vorigePriem = priemgetal;
-            }
-
-            return retval;
-        }
-
-        private static void BepaalPriemgetal(long natuurlijkGetal, List<long> priemgetallen)
-        {
-            long deelTeller = 0;
-            for (int i = 1; i <= natuurlijkGetal; i++)
-            {                                
-                if ( natuurlijkGetal % i == 0)
+                if (naturalNumber % i == 0)
                 {
-                    deelTeller++;
+                    divisibleCounter++;
                 }
 
-                if (i == natuurlijkGetal && deelTeller == 2)
+                if (i == naturalNumber && divisibleCounter == 2)
                 {
-                    priemgetallen.Add(natuurlijkGetal);
+                    return true; ;
                 }
             }
+            return false;
         }
     }
 }

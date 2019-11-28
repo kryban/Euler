@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _0_Base;
+using System;
 
 namespace _1_MultiplesOf3and5
 {
@@ -7,10 +8,11 @@ namespace _1_MultiplesOf3and5
      * The sum of these multiples is 23.
      * Find the sum of all the multiples of 3 or 5 below 1000.
      */
-    class Program
+    class Program : SolverBase
     {
         static void Main(string[] args)
         {
+            int answer = 233168;
             int solution = 0;
 
             for(int i = 0; i<1000; i++)
@@ -20,12 +22,8 @@ namespace _1_MultiplesOf3and5
                     solution += i;
                 }
             }
-            
-            Console.WriteLine($"Solution Project 1: {solution}");
 
-            Console.WriteLine();
-            Console.WriteLine("Press any key.");
-            Console.ReadKey();
+            ShowResults(solution, answer);
         }
     }
 }

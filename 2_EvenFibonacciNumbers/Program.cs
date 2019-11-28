@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _0_Base;
+using System;
 
 namespace _2_EvenFibonacciNumbers
 {
@@ -10,10 +11,11 @@ namespace _2_EvenFibonacciNumbers
      find the sum of the even-valued terms.
      */
 
-    class Program
+    class Program : SolverBase
     {
         static void Main(string[] args)
         {
+            int answer = 4613732;
             int solution = 0;
 
             int furtherPrevious = 0;
@@ -33,11 +35,7 @@ namespace _2_EvenFibonacciNumbers
                 }
             }
 
-            Console.WriteLine($"Solution Project 2: {solution}");
-
-            Console.WriteLine();
-            Console.WriteLine("Press any key.");
-            Console.ReadKey();
+            ShowResults(solution, answer);
         }
     }
 }

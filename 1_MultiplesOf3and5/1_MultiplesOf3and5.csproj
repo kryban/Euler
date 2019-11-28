@@ -6,4 +6,8 @@
     <RootNamespace>_1_MultiplesOf3and5</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\0_sev\0_Base.csproj" />
+  </ItemGroup>
+
 </Project>

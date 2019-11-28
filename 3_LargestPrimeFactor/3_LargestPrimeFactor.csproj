@@ -6,4 +6,8 @@
     <RootNamespace>_3_LargestPrimeFactor</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\0_sev\0_Base.csproj" />
+  </ItemGroup>
+
 </Project>
