@@ -13,9 +13,6 @@ namespace _4_LargestPalindromeProduct
 
         static void Main(string[] args)
         {
-            int answer = 906609;
-            int solution = 0;
-
             int fourDigit = 1000;
             int threeDigit = 100;
             int palindrome = 0;
@@ -33,8 +30,7 @@ namespace _4_LargestPalindromeProduct
                 }
             }
 
-            solution = palindrome;
-            ShowResults(4,solution);
+            ShowResults(4,palindrome);
         }
 
         private static int? GetPalindrome(int firstThreeDigit, int secondThreeDigit)

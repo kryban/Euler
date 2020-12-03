@@ -6,4 +6,8 @@
     <RootNamespace>_5_SmallestMultiple</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\0_sev\0_Base.csproj" />
+  </ItemGroup>
+
 </Project>

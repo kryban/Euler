@@ -12,12 +12,11 @@ namespace _0_Base
         }
         public static void ShowResults(int projectNumber, object solution)
         {
+            string yesno = solution.ToString().Equals(ReturnSolution(projectNumber)) ? string.Empty : "NOT ";
 
-            Console.WriteLine($"Solution Project {projectNumber}: {solution}. (Euler answer: {ReturnSolution(projectNumber)})");
-
-            Console.WriteLine();
-            Console.WriteLine("Press any key.");
-            Console.ReadKey();
+            Console.WriteLine($"{Environment.NewLine}Solution Project {projectNumber}: {solution}. (Euler answer: {ReturnSolution(projectNumber)})");
+            Console.WriteLine($"Answer is: {yesno}CORRECT ");
+            Console.WriteLine($"{Environment.NewLine}Press any key.{ Environment.NewLine}");
         }
 
         public static string ReturnSolution(int projectNumber)
