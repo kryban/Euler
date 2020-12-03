@@ -12,7 +12,6 @@ namespace _3_LargestPrimeFactor
     {
         static void Main(string[] args)
         {
-            int answer = 6857;
             long solution = 0;
 
             long max = 600851475143;

@@ -15,7 +15,6 @@ namespace _2_EvenFibonacciNumbers
     {
         static void Main(string[] args)
         {
-            int answer = 4613732;
             int solution = 0;
 
             int furtherPrevious = 0;
