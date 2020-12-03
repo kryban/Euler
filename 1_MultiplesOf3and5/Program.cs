@@ -23,7 +23,7 @@ namespace _1_MultiplesOf3and5
                 }
             }
 
-            ShowResults(solution, answer);
+            ShowResults(1,solution);
         }
     }
 }

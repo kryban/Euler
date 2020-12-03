@@ -35,7 +35,7 @@ namespace _2_EvenFibonacciNumbers
                 }
             }
 
-            ShowResults(solution, answer);
+            ShowResults(2,solution);
         }
     }
 }

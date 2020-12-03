@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0_Base", "0_sev\0_Base.cspr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_LargestPrimeFactor", "3_LargestPrimeFactor\3_LargestPrimeFactor.csproj", "{CE5E4D3D-D6B5-418F-AB8A-71742D1CF007}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_LargestPalindromeProduct", "4_LargestPalindromeProduct\4_LargestPalindromeProduct.csproj", "{94AD2986-E74E-448A-A951-598325A7528B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_LargestPalindromeProduct", "4_LargestPalindromeProduct\4_LargestPalindromeProduct.csproj", "{94AD2986-E74E-448A-A951-598325A7528B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_SmallestMultiple", "5_SmallestMultiple\5_SmallestMultiple.csproj", "{6A832829-0DBC-4DA4-9D58-C65B2D3D1A2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{94AD2986-E74E-448A-A951-598325A7528B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94AD2986-E74E-448A-A951-598325A7528B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94AD2986-E74E-448A-A951-598325A7528B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A832829-0DBC-4DA4-9D58-C65B2D3D1A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A832829-0DBC-4DA4-9D58-C65B2D3D1A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A832829-0DBC-4DA4-9D58-C65B2D3D1A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A832829-0DBC-4DA4-9D58-C65B2D3D1A2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

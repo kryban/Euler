@@ -34,7 +34,7 @@ namespace _4_LargestPalindromeProduct
             }
 
             solution = palindrome;
-            ShowResults(solution, answer);
+            ShowResults(4,solution);
         }
 
         private static int? GetPalindrome(int firstThreeDigit, int secondThreeDigit)

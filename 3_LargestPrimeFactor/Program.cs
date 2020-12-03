@@ -38,7 +38,7 @@ namespace _3_LargestPrimeFactor
                 }
             }
 
-            ShowResults(solution, answer);
+            ShowResults(3,solution);
         }
 
         private static bool IsPrimeNumber(long naturalNumber)
