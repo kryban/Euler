@@ -20,7 +20,7 @@ namespace _3_LargestPrimeFactor
 
             for (long naturalNumber = 1; naturalNumber < max; naturalNumber++)
             {
-                if(IsPrimeNumber(naturalNumber))
+                if(IsPrime(naturalNumber))
                 {
                     System.Console.WriteLine($"Calculating next prime number: {naturalNumber}");
 
@@ -40,7 +40,7 @@ namespace _3_LargestPrimeFactor
             ShowResults(3,solution);
         }
 
-        private static bool IsPrimeNumber(long naturalNumber)
+        private static bool IsPrime(long naturalNumber)
         {
             long divisibleCounter = 0;
             for (int i = 1; i <= naturalNumber; i++)
