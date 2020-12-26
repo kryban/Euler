@@ -7,9 +7,8 @@ namespace _0_Base
     public class SolverBase
     {
         static void Main(string[] args)
-        {
+        {}
 
-        }
         public static void ShowResults(int projectNumber, object solution)
         {
             string yesno = solution.ToString().Equals(ReturnSolution(projectNumber)) ? string.Empty : "NOT ";
