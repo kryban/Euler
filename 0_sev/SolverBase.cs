@@ -18,7 +18,7 @@ namespace _0_Base
             Console.WriteLine($"{Environment.NewLine}Press any key.{ Environment.NewLine}");
         }
 
-        public static string ReturnSolution(int projectNumber)
+        private static string ReturnSolution(int projectNumber)
         {
             Dictionary<int, string> Answers = new Dictionary<int, string> {
                 {1,"233168"},
