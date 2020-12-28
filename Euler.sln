@@ -27,7 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_LargestProductInASerie", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_SpecialPythagoreanTriplet", "SpecialPythagoreanTriplet\9_SpecialPythagoreanTriplet.csproj", "{D2D9F58E-4DB6-4178-B821-EE615F5209DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_SummationOfPrimes", "10_SummationOfPrimes\10_SummationOfPrimes.csproj", "{83C69D71-A8FD-4465-9EB1-FE90CA133A6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_SummationOfPrimes", "10_SummationOfPrimes\10_SummationOfPrimes.csproj", "{83C69D71-A8FD-4465-9EB1-FE90CA133A6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20", "20", "{8F5A2278-1EDA-4019-9365-9F55F83C36CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_LargestProductInAGrid", "11_LargestProductInAGrid\11_LargestProductInAGrid.csproj", "{FB3C08FF-98E6-436E-A97A-21085F2A6798}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +83,10 @@ Global
 		{83C69D71-A8FD-4465-9EB1-FE90CA133A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83C69D71-A8FD-4465-9EB1-FE90CA133A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83C69D71-A8FD-4465-9EB1-FE90CA133A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB3C08FF-98E6-436E-A97A-21085F2A6798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3C08FF-98E6-436E-A97A-21085F2A6798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3C08FF-98E6-436E-A97A-21085F2A6798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3C08FF-98E6-436E-A97A-21085F2A6798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +103,8 @@ Global
 		{5974743F-7425-40A2-A4D0-41163B691434} = {BC72AD02-F511-42AE-A763-25BC2A613D8F}
 		{D2D9F58E-4DB6-4178-B821-EE615F5209DD} = {BC72AD02-F511-42AE-A763-25BC2A613D8F}
 		{83C69D71-A8FD-4465-9EB1-FE90CA133A6B} = {BC72AD02-F511-42AE-A763-25BC2A613D8F}
+		{8F5A2278-1EDA-4019-9365-9F55F83C36CE} = {80671D15-031F-4DA8-9796-460B0EA2F80A}
+		{FB3C08FF-98E6-436E-A97A-21085F2A6798} = {8F5A2278-1EDA-4019-9365-9F55F83C36CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0BE92F3-1F77-4757-8E15-30243FA9B02B}
